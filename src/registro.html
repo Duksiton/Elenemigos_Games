@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/uikit.js"></script>
+    <script src="scripts/uikit-icons.js"></script>
+</head>
+<body class="bg-light">
+
+    <div class="uk-offcanvas-content">
+        <header>
+
+            <div class="uk-navbar-container tm-navbar-container" uk-sticky="cls-active: tm-navbar-container-fixed">
+                <div class="uk-container" uk-navbar>
+                    <div class="uk-navbar-left"><button class="uk-navbar-toggle uk-hidden@m"
+                            uk-toggle="target: #nav-offcanvas" uk-navbar-toggle-icon></button><a
+                            class="uk-navbar-item uk-logo" href="index.html"><img src="images/logo_elenemigos.png"
+                                width="290" height="32" alt="Logo"></a>
+
+                    </div>
+                    <div class="uk-navbar-right"><a class="uk-navbar-toggle tm-navbar-button" href="#"
+                            uk-search-icon></a>
+                        <div class="uk-navbar-dropdown uk-padding-small uk-margin-remove"
+                            uk-drop="mode: click;cls-drop: uk-navbar-dropdown;boundary: .tm-navbar-container;boundary-align: true;pos: bottom-justify;flip: x">
+                            <div class="uk-container">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <form class="uk-search uk-search-navbar uk-width-1-1"><input
+                                                class="uk-search-input" type="search" placeholder="Search…" autofocus>
+                                        </form>
+                                    </div>
+                                    <div class="uk-width-auto"><a class="uk-navbar-dropdown-close" href="#"
+                                            uk-close></a></div>
+                                </div>
+                            </div>
+                        </div><a class="uk-navbar-item uk-link-muted tm-navbar-button" href="ordenes.html"
+                            uk-icon="user"></a>
+                        <div class="uk-padding-small uk-margin-remove"
+                            uk-dropdown="pos: bottom-right; offset: -10; delay-hide: 200;" style="min-width: 150px;">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li><a href="iniciars.html">Iniciar Sesión</a></li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a href="registro.html">Registrarse</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="bg-white p-4 rounded shadow-sm" style="max-width: 400px; width: 100%;">
+            <h2 class="text-center mb-4">Registro</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" class="form-control" id="name" placeholder="Introduce tu nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Introduce tu correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" class="form-control" id="password" placeholder="Introduce tu contraseña" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Registrar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <section class="uk-section uk-section-secondary uk-section-small uk-light">
+            <div class="uk-container">
+                <div class="uk-grid-medium uk-child-width-1-1 uk-child-width-1-4@m" uk-grid>
+                    <div><a class="uk-logo" href="index.html"><img src="images/logo_elenemigos.png" width="290"
+                                height="32" alt="Logo"></a>
+                        <p class="uk-text-small">Somos una pagina que vende licencias de videojuegos, nuestras
+                            licencias son totalmente originales
+                            y al mejor precio.</p>
+
+                    </div>
+
+                    <div>
+                        <nav class="uk-grid-small uk-child-width-1-2" uk-grid>
+                            <div>
+                                <ul class="uk-nav uk-nav-default">
+
+                                </ul>
+                            </div>
+                            <div>
+
+                            </div>
+                        </nav>
+                    </div>
+                    <div>
+                        <ul class="uk-list uk-text-small">
+
+                            <li><a class="uk-link-muted" href="#"><span class="uk-margin-small-right"
+                                        uk-icon="mail"></span><span
+                                        class="tm-pseudo">elenemigos@games.com</span></a>
+                            </li>
+                            <li>
+                                <div class="uk-text-muted"><span class="uk-margin-small-right"
+                                        uk-icon="location"></span><span>&nbsp;Colombia, Bogotá</span></div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <form class="uk-form-stacked"><label>
+                                <div class="uk-form-label uk-text-muted">Subscribete para recibir actualizaciones
+                                </div>
+                                <div class="uk-inline uk-width-1-1"><a class="uk-form-icon uk-form-icon-flip"
+                                        href="#" uk-icon="mail"></a><input class="uk-input" type="email"
+                                        placeholder="Su correo" required></div>
+                            </label></form>
+                        <div class="uk-margin uk-text-small uk-text-muted">Elenemigos Games ©</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

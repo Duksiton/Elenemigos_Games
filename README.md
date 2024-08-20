@@ -6,21 +6,13 @@ Proyecto 5 NodeJS
 
 ## Screenshots del proyecto
 
-![App Screenshot](https://cdn.discordapp.com/attachments/752529260501139556/1265165336521609310/image.png?ex=66a08489&is=669f3309&hm=a155f140e2c2653b9c7b902c27c0a1093d48575299e8745fe63b9dee22156682&)
+![App Screenshot](https://cdn.discordapp.com/attachments/752529260501139556/1265165336521609310/image.png?ex=66c4c5c9&is=66c37449&hm=d0836a8ee3ba266e3debaa339e9901eaec850d6274aa1b5bd2adc4dcae3087b5&)
 
-![App Screenshot](https://cdn.discordapp.com/attachments/752529260501139556/1265165396600688732/image.png?ex=66a08498&is=669f3318&hm=1cb2b197d80c9b2dea9cb03ea15bdfe5b07071f2053a8b91234b55dd6336252b&)
+![App Screenshot](https://cdn.discordapp.com/attachments/752529260501139556/1265165396600688732/image.png?ex=66c4c5d8&is=66c37458&hm=31aac34313f95220b9d3cb0e6785d858d08ad80945cdb430bd839ac5c1bcf667&)
 
-![App Screenshot](https://cdn.discordapp.com/attachments/752529260501139556/1265165454792720504/image.png?ex=66a084a6&is=669f3326&hm=3dbaba9410b45a28cf3993a5431304533a7bd515c703888d1d57439428af116a&)
+![App Screenshot](https://cdn.discordapp.com/attachments/752529260501139556/1265165454792720504/image.png?ex=66c4c5e6&is=66c37466&hm=84c0a735c384eac93b3871ef547b93ae03270c8741fe91cf869696c8b839ca1b&)
 
 
 ## Autor del proyecto
 
 - [@Duksiton](https://github.com/Duksiton)
-
-## Copyright and Credits
-
-[Shopping Categories Colection](https://thenounproject.com/jarosigrist/collection/shopping-categories) icons by Jaro Sigrist from Noun Project. Licensed under Creative Commons Attribution 3.0.
-
-## License
-
-This software is licensed under the MIT License © [Roman Chekurov](https://github.com/chekromul)
